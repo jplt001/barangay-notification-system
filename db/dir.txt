@@ -1,0 +1,1 @@
+C:\xampp\htdocs\brngy_notifs\trunk\brgy_notif\vendor\laravel\framework\src\Illuminate\Foundation\Auth

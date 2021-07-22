@@ -1,0 +1,3 @@
+Open cmd
+Then Type cd C:\xampp\htdocs\brngy_notifs\trunk\brgy_notif\public\node then hit Enter
+Then type npm install

@@ -1,0 +1,15 @@
+{
+  "name": "brgy911",
+  "version": "1.0.0",
+  "description": "This is for notifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rkmalveda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.0.4"
+  }
+}
