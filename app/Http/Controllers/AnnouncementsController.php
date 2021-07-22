@@ -32,8 +32,11 @@ class AnnouncementsController extends Controller
     public function create()
     {
         //
-
-        return view('announcements.create');
+        $side_bar = DB::table('user_access')
+            ->join('side_bar', 'user_access.side_bar_id', '=', 'side_bar.id')
+            ->where('position_id', Auth::user()->position_id)
+            ->get();
+        return view('announcements.create')->with(["side_bars"=> $side_bar, "side_active"=> "announcements"]);
     }
 
     /**
